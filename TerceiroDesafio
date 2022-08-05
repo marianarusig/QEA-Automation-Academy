@@ -1,0 +1,44 @@
+import java.util.Scanner; 
+
+public class TerceiroDesafio {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		String nome;
+		int idade;
+		int contador = 0;
+		int opção;
+		float altura;
+		int totalMaioresDeIdadeEAltura; 
+		
+		System.out.print("****Bem-vindo ao cadastro!**** ");{
+		}
+		do { 
+			System.out.print("\n1 - Cadastrar uma nova pessoa.\n" +
+		}
+                "2 - Sair\n" +
+                "Opção ==> ");
+        opção = sc.nextInt();
+        
+        switch (opção) {
+        case 1:
+        	System.out.print("\n==== Dados da pessoa nº" + (contador) + " ====\n");
+	
+	System.out.print("Digite seu nome: ");
+	nome = sc.next();
+	System.out.print("Digite sua idade: ");
+	idade = sc.nextInt();
+	System.out.print("Digite sua altura: ");
+	altura = sc.nextFloat();
+	        
+		
+		
+		
+		
+		
+		sc.close();
+		
+	     
+	}
+
+}
